@@ -1,0 +1,6 @@
+NAME                     STATUS   ROLES           AGE     VERSION
+prod-ha-control-plane    Ready    control-plane   7h23m   v1.33.1
+prod-ha-control-plane2   Ready    control-plane   7h22m   v1.33.1
+prod-ha-control-plane3   Ready    control-plane   7h21m   v1.33.1
+prod-ha-worker           Ready    <none>          7h21m   v1.33.1
+prod-ha-worker2          Ready    <none>          7h21m   v1.33.1

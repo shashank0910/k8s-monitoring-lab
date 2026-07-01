@@ -1,0 +1,21 @@
+NAME                        READY   STATUS    RESTARTS   AGE   IP            NODE              NOMINATED NODE   READINESS GATES
+nginx-ha-7d744949b7-6mh2r   1/1     Running   0          75s   10.244.4.12   prod-ha-worker2   <none>           <none>
+nginx-ha-7d744949b7-7blz2   1/1     Running   0          75s   10.244.4.9    prod-ha-worker2   <none>           <none>
+nginx-ha-7d744949b7-8c7xb   1/1     Running   0          75s   10.244.3.15   prod-ha-worker    <none>           <none>
+nginx-ha-7d744949b7-c2z9n   1/1     Running   0          75s   10.244.3.8    prod-ha-worker    <none>           <none>
+nginx-ha-7d744949b7-dz9ms   1/1     Running   0          75s   10.244.3.7    prod-ha-worker    <none>           <none>
+nginx-ha-7d744949b7-f2f64   1/1     Running   0          75s   10.244.3.12   prod-ha-worker    <none>           <none>
+nginx-ha-7d744949b7-f85pz   1/1     Running   0          75s   10.244.4.7    prod-ha-worker2   <none>           <none>
+nginx-ha-7d744949b7-fz8ss   1/1     Running   0          75s   10.244.4.14   prod-ha-worker2   <none>           <none>
+nginx-ha-7d744949b7-k6qmq   1/1     Running   0          75s   10.244.3.11   prod-ha-worker    <none>           <none>
+nginx-ha-7d744949b7-ks7sw   1/1     Running   0          75s   10.244.4.11   prod-ha-worker2   <none>           <none>
+nginx-ha-7d744949b7-lsqqp   1/1     Running   0          75s   10.244.3.14   prod-ha-worker    <none>           <none>
+nginx-ha-7d744949b7-pmv4m   1/1     Running   0          75s   10.244.4.13   prod-ha-worker2   <none>           <none>
+nginx-ha-7d744949b7-px9rb   1/1     Running   0          75s   10.244.4.10   prod-ha-worker2   <none>           <none>
+nginx-ha-7d744949b7-r5zgr   1/1     Running   0          75s   10.244.3.6    prod-ha-worker    <none>           <none>
+nginx-ha-7d744949b7-s6wbp   1/1     Running   0          75s   10.244.3.13   prod-ha-worker    <none>           <none>
+nginx-ha-7d744949b7-skqjq   1/1     Running   0          75s   10.244.4.6    prod-ha-worker2   <none>           <none>
+nginx-ha-7d744949b7-t4mkr   1/1     Running   0          75s   10.244.4.8    prod-ha-worker2   <none>           <none>
+nginx-ha-7d744949b7-tlgqb   1/1     Running   0          75s   10.244.3.9    prod-ha-worker    <none>           <none>
+nginx-ha-7d744949b7-vg6pj   1/1     Running   0          75s   10.244.3.10   prod-ha-worker    <none>           <none>
+nginx-ha-7d744949b7-xdr5g   1/1     Running   0          75s   10.244.4.5    prod-ha-worker2   <none>           <none>

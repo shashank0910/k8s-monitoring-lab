@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-ha
+spec:
+  replicas: 20
+  selector:
+    matchLabels:
+      app: nginx-ha
+  template:
+    metadata:
+      labels:
+        app: nginx-ha
+    spec:
+      containers:
+      - name: nginx
+        image: nginx:latest
+        ports:
+        - containerPort: 80

@@ -1,0 +1,17 @@
+apiVersion: monitoring.coreos.com/v1
+kind: PrometheusRule
+metadata:
+  name: custom-alerts
+  namespace: monitoring
+spec:
+  groups:
+  - name: custom.rules
+    rules:
+    - alert: DemoAlert
+      expr: vector(1)
+      for: 15s
+      labels:
+        severity: warning
+      annotations:
+        summary: Demo Alert
+        description: This alert demonstrates the monitoring pipeline.
